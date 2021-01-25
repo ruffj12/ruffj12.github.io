@@ -1,28 +1,60 @@
 body {
-    height: 100%;
-    color: #323232;
+  height: 100%;
+  color: #323232;
+  Font-Family: 'Cabin', Sans-Serif;
+  Font-Size: 16px;
+  margin: 0 auto; 
+  padding: 0 16px;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
 }
 
 h2 {
-    margin: 0;
-    margin-bottom: var(--spacing-2);
-  }
+  margin: 0;
+  margin-bottom: 12px;
+  Font-Family: 'Roboto Condensed', Sans-Serif;
+  
+}
 
 nav {
-   display: flex;
-   align-items: center;
-   padding: 16px; 
+  display: flex;
+  align-items: center;
+  padding: 16px 0;
 }
 
 .navigation-items {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-    align-items: center;
-    margin: 0;
-    margin-left: auto;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  align-items: center;
+  margin: 0;
+  margin-left: auto;
 }
 
 .navigation-item {
-    margin: 8px;
+  margin: 8px;
 }
+
+.portrait {
+  width:300px;
+  border-radius: 12px;
+  flex-shrink:0;
+}
+
+.about-me-container {
+  display: flex;
+}
+
+.about-me-text-container{
+  margin-right: 16px;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: #323232;
+  font-weight: 600;
+}
+
