@@ -44,6 +44,7 @@ nav {
 
 .about-me-container {
   display: flex;
+  margin-bottom: 16px;
 }
 
 .about-me-text-container{
@@ -51,10 +52,32 @@ nav {
 }
 
 
+.project-container {
+  display:flex;
+  justify-content: space-around;
+}
+.prjpic {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+
+}
 
 a {
   text-decoration: none;
   color: #323232;
   font-weight: 600;
+}
+
+section {
+  margin-bottom: 16px;
+}
+
+button {
+  background-color: white;
+  border-color: #323232;
+  font-size: 18px;
+  border-radius: 0px 20px 0px 20px;
+  padding: 5px;
 }
 
