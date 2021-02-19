@@ -81,3 +81,13 @@ button {
   padding: 5px;
 }
 
+@media only screen and (max-width: 600px) {
+  .about-me-container{
+    flex-direction: column;
+  }
+  .project-container {
+    flex-direction: column;
+  }
+
+}
+
